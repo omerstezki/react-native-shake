@@ -26,7 +26,7 @@ public class CustomShakeDetector implements SensorEventListener {
   private static final int MAX_SAMPLES = 25;
   private static final int MIN_TIME_BETWEEN_SAMPLES_MS = 20;
   private static final int VISIBLE_TIME_RANGE_MS = 500;
-  private static final int MAGNITUDE_THRESHOLD = 25;
+  private static final int MAGNITUDE_THRESHOLD = 55;
   private static final int PERCENT_OVER_THRESHOLD_FOR_SHAKE = 66;
 
   public static interface ShakeListener {
