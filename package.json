@@ -28,7 +28,7 @@
   "scripts": {
     "compile": "rm -rf lib && tsc -p .",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "prepare": "npm run compile",
+    "prepare": "yarn compile",
     "test": "jest"
   },
   "devDependencies": {
